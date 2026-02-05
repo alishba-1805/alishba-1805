@@ -31,7 +31,7 @@
 - 📚 Learning **Python**, and sharpening **Digital Forensics** techniques
 - 🔐 Exploring: `CTFs` • `Linux Security` 
 - 📬 Email: [anomly18@gmail.com](mailto:anomly18@gmail.com)
-- 🌐 Portfolio: [alishba-1805.github.io/portfolio](https://alishba-1805.github.io/portfolio/)
+- 🌐 Portfolio: [https://alishba-1805.github.io/portfolio/](https://alishba18-portfolio.vercel.app/)
 
 ---
 
