@@ -64,5 +64,5 @@
 ### 🌐 Visitor Counter
 
 <div align="center">
-  <img src="[portfolio](https://alishba18-portfolio.vercel.app/)" alt="Visitor Count" />
+  <img src="https://profile-counter.glitch.me/alishba18-portfolio/count.svg" alt="Visitor Count" />
 </div>
