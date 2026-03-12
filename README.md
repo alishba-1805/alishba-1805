@@ -64,5 +64,5 @@
 ### 🌐 Visitor Counter
 
 <div align="center">
-  <img src="https://profile-counter.glitch.me/alishba18-portfolio/count.svg" alt="Visitor Count" />
+  <img src="https://count.getloli.com/get/@alishba18-portfolio?theme=moebooru" alt="Visitor Count" />
 </div>
