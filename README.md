@@ -3,10 +3,10 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00b4d8,100:34d399&height=220&section=header&text=Alishba%20Inam&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=BS%20Cybersecurity%20Student%20%7C%20SOC%20Analyst%20%7C%20Software%20Engineer&descSize=18&descAlignY=55&animation=fadeIn" alt="Header Banner" />
 </p>
 
-<!-- Animated Typing SVG -->
+<!-- Corrected Typwriter SVG (Single-line scrolling, zero overlapping) -->
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=3000&pause=1000&color=00B4D8&center=true&multiline=true&repeat=true&lines=BS+Cybersecurity+Student+%40+FAST+NUCES;SOC+Analyst+Intern+%40+Tech+Hierarchy;Triaging+50%2B+daily+alerts+using+SIEM;DFIR+Lover+%26+CTF+Challenge+Creator" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=3000&pause=1000&color=00B4D8&center=true&width=550&height=40&lines=BS+Cybersecurity+Student+%40+FAST+NUCES;SOC+Analyst+Intern+%40+Tech+Hierarchy;Triaging+50%2B+daily+alerts+using+SIEM;DFIR+Lover+%26+CTF+Challenge+Creator" alt="Typing SVG" />
   </a>
 </div>
 
@@ -59,19 +59,43 @@ I am a **BS Cybersecurity Undergraduate** at **FAST NUCES Islamabad** (Class of 
       <td align="left">🏆 <b>CTF Leadership</b></td>
       <td align="left">Head of Finance & Technical Team Member at <b>Cyber Space Legion</b></td>
     </tr>
-    <tr>
-      <td align="left">🌱 <b>Certifications</b></td>
-      <td align="left">HTB CDSA 🔄 | Let's Defend SOC Analyst 🔄 | Cisco SOC & NetSec ✅</td>
-    </tr>
   </table>
 </div>
 
-#### 📈 Quick Metrics & Operations
+---
 
-*   🛡️ **50+ daily SIEM alerts** triaged and analyzed using Wazuh and Splunk at Tech Hierarchy.
-*   ⚡ **25% reduction** in false-positive noise achieved through custom SIEM rule validation.
-*   🔍 Designed a **hard-level NASCON 2026 Forensic CTF challenge** (solved by **< 10%** of participants).
-*   🎓 Guided **40+ cybersecurity students** as a Teaching Assistant in Computer Networks and Coding Labs.
+### 📁 Operational Skills Structure
+
+```bash
+alishba-1805/
+├── 🛡️ security-operations/
+│   ├── SIEM/               # Wazuh, Splunk, Elastic Stack
+│   ├── framework/          # MITRE ATT&CK Mapping, EDR/IDS Rule Validation
+│   └── triage/             # Incident Response Playbooks & Threat Hunting
+├── 🔍 digital-forensics/
+│   ├── windows/            # NTFS Alternate Data Streams (ADS), Registry Analysis
+│   └── artifacts/          # Wireshark Network PCAP, Malicious Macro Word Docs
+└── 💻 software-engineering/
+    ├── low-level/          # x86 Assembly (MASM32, Win32 GDI, Interrupt Registers)
+    ├── backend/            # C++ (Custom AVL Trees, Priority Heaps), Python, Node.js
+    └── full-stack/         # MERN (Token Fingerprinting, CSRF Double-Submit Mitigation)
+```
+
+---
+
+### 🚨 Live SOC Incident Operations Log (Simulated Lab)
+
+<details>
+  <summary><b>🛠️ Expand SOC Operations Console [wazuh-manager-01]</b></summary>
+  <br>
+  <pre>
+  [2026-05-28 13:15:00 UTC] [INFO] Wazuh-Manager engine active. Heartbeats stable.
+  [2026-05-28 13:20:12 UTC] [ALERT] MITRE T1021.002 (Remote Services: SMB/Admin Shares) detected on lab-workstation-03.
+  [2026-05-28 13:20:15 UTC] [ACTION] Triage sequence initiated. Context: Tech Hierarchy internal simulation.
+  [2026-05-28 13:21:40 UTC] [DFIR] Alternate Data Stream (ADS) detected on compromised host. Flagging for index: nascon_win10.
+  [2026-05-28 13:25:00 UTC] [STATUS] Threat neutralized. Logs forwarded to Splunk index: security_ops_triage.
+  </pre>
+</details>
 
 ---
 
@@ -150,8 +174,22 @@ I am a **BS Cybersecurity Undergraduate** at **FAST NUCES Islamabad** (Class of 
 
 #### 🏢 [NextGen Residency (Smart Housing Society Portal)](https://github.com/alishba-1805/Smart-Housing-Society-Website)
 > Hardened MERN portal with granular role-based authentication, real-time tracking, and automated service bookings.
-*   **Active Defense:** Built-in cryptographic **Token Fingerprinting** (binding JWT access/refresh tokens to client parameters to block replay attacks).
+*   **Active Defense:** Built-in cryptographic **Token Fingerprinting** (binding JWT access/refresh tokens to client properties to prevent hijacking).
 *   **Client & API Protections:** Implemented `Helmet.js` security policies, Double-Submit Cookie CSRF prevention, Express NoSQL injection scrubbing, and dynamic endpoint rate-limiters.
+
+<details>
+  <summary><b>🔑 View NextGen Fingerprinting Architecture</b></summary>
+  <br>
+  <pre>
+  ┌───────────────────┐       1. Access Request + Fingerprint       ┌───────────────────┐
+  │   User Browser    │────────────────────────────────────────────>│  Express Server   │
+  │  (Hashed Cookie)  │                                             │ (Decrypt & Validate)│
+  │                   │<────────────────────────────────────────────│                   │
+  │                   │         2. Signature Mismatch Check         │                   │
+  └───────────────────┘         (Mismatch = Revoke Session)         └───────────────────┘
+  </pre>
+</details>
+
 *   *Tech Stack:* `React` • `Node.js` • `MongoDB` • `Express.js` • `JWT Security`
 
 #### 🎯 [Xonix Arcade Game Engine](https://github.com/alishba-1805/Xonix-Game-)
@@ -168,6 +206,22 @@ I am a **BS Cybersecurity Undergraduate** at **FAST NUCES Islamabad** (Class of 
 > Console e-commerce solution in modular procedural C++ demonstrating lightweight cryptography.
 *   **Cryptographic Layer:** Features mathematical Caesar Cipher byte shifts on user disk records, a dynamic 6-digit OTP generator for simulated Multi-Factor Authentication, and password asterisk masking with lock-out handlers.
 *   *Tech Stack:* `C++` • `Caesar Cryptography` • `File I/O Streams`
+
+---
+
+### 🌱 Active Roadmaps & Certifications
+
+*   **HTB Certified Defensive Security Analyst (HTB CDSA)** — *In Progress*
+    ```
+    [████████████████████████████░░░░░░░░░░] 70% Completed
+    ```
+*   **SOC Analyst Learning Path (Let's Defend)** — *In Progress*
+    ```
+    [████████████████████████████████░░░░░░] 80% Completed
+    ```
+*   **SOC Fundamentals | Let's Defend** — *Completed (2026)*
+*   **Security Operations Center Specialist | Cisco** — *Completed (2025)*
+*   **Network Security Specialist | Cisco** — *Completed (2025)*
 
 ---
 
